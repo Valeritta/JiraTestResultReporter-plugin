@@ -44,7 +44,6 @@
                 <st:nbsp />
                 <a id="issue-link" href="${it.issueUrl}" title="${it.issueSummary}" target="_blank">${it.issueKey}</a>
                 <st:nbsp />
-                <st:include page="issueStatus.jelly" />
             </j:when>
         </j:choose>
         <st:nbsp />
